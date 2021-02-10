@@ -14,6 +14,8 @@
   
     echo "Ako budoy";
 
+    echo "Ako budoy";
+
     ?>
 
 </body>
