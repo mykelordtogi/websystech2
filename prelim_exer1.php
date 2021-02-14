@@ -1,5 +1,20 @@
 <html>
-<head> <title>PHP Tutorial</title></head>
+<head> <title>
+
+
+<?php 
+
+$var = "PHP Tutorial";
+
+echo "$var";
+
+?>
+
+</title>
+
+
+
+</head>
 
 <body>
 
