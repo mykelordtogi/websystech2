@@ -12,9 +12,7 @@
 
     echo "Hello World";
   
-    echo "Ako budoy";
-
-    echo "Ako budoy";
+ 
 
     ?>
 
