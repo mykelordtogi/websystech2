@@ -5,7 +5,11 @@
 
 <style>
 a{
-    text-decoration: none;;
+    text-decoration: none;
+}
+a:visited{
+    color:black;
+    text-decoration: none;
 }
 
 </style>
