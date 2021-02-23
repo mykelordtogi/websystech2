@@ -149,7 +149,7 @@ height: 30px;
 
 <div id="submitreset">
   <input id="submitbtn" class="button1" type="submit" value="Submit">
-  <input id="resetbtn" class="button1" type="button" value="Reset" onclick="location.href='https://websystech2igot.herokuapp.com/prelim_exer2.php;">
+  <input id="resetbtn" class="button1" type="button" value="Reset" onclick="location.href='http://localhost/websystech2/prelim_exer2.php';">
   </div>
 
 </form>
