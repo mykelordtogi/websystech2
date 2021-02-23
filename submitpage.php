@@ -44,7 +44,7 @@ echo strtoupper($mydepartments)."<br>";
 ?>
 <br>
 <br>
-<input type="button" onclick="location.href='http://localhost/websystech2/prelim_exer2.php';" value="Go back to the Fill up form">
+<input type="button" onclick="location.href='https://websystech2igot.herokuapp.com/prelim_exer2.php;" value="Go back to the Fill up form">
 
 </body>
 
