@@ -29,7 +29,7 @@ $mynewcar->setMySpeed("200");
 $newspeed=intval($mynewcar->getMyMaxSpeed());
 
 
-if($newspeed >= 200)
+if($newspeed > 140)
 {
 
 echo "Beep! I am a ".$mynewcar->getMymake()."<br>";
@@ -57,7 +57,7 @@ $mynewcar->setMyMake("Toyota");
 $newspeed=intval($mynewcar->getMyMaxSpeed());
 
 
-if($newspeed > 200)
+if($newspeed > 140)
 {
 
 echo "Beep! I am a ".$mynewcar->getMymake()."<br>";
@@ -85,7 +85,7 @@ $mynewcar->setMyMake("Chevy");
 $newspeed=intval($mynewcar->getMyMaxSpeed());
 
 
-if($newspeed > 200)
+if($newspeed > 140)
 {
 
 echo "Beep! I am a ".$mynewcar->getMymake()."<br>";
@@ -113,7 +113,7 @@ $mynewcar->setMyMake("Jeep");
 $newspeed=intval($mynewcar->getMyMaxSpeed());
 
 
-if($newspeed > 200)
+if($newspeed > 140)
 {
 
 echo "Beep! I am a ".$mynewcar->getMymake()."<br>";
