@@ -3,8 +3,8 @@
 class Animal
 {
 
- public $breed;
-  public $color;
+public $breed;
+ public $color;
 
 
 public function __construct($breed,$color)
@@ -14,24 +14,24 @@ $this->color = $color;
 	}
 
 
- function setBreed($breed)
+ public function setBreed($breed)
  {
  $this->breed = $breed;
 
  }
- 	function getBreed()
+ 	public function getBreed()
  {
 
  return $this->breed;
 }
 
 
- function setColor($color)
+ public function setColor($color)
  {
  $this->color = $color;
 
  }
- 	function getColor()
+ 	public function getColor()
  {
 
  return $this->color;
@@ -43,7 +43,7 @@ $this->color = $color;
 
 class Dog extends Animal
 {
-var $owner;
+private $owner;
 
 public function __construct($breed,$color)
 	{
@@ -51,12 +51,12 @@ $this->breed = $breed;
 $this->color = $color;
 	}
 
-function setOwner($owner)
+public function setOwner($owner)
  {
  $this->owner = $owner;
 
  }
- 	function getOwner()
+ 	public function getOwner()
  {
 
  return $this->owner;
