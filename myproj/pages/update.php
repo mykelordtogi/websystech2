@@ -1,6 +1,5 @@
 <?php
 
-session_start();
 include_once('../dao/config.php');
 include("styles.php");
 
@@ -34,39 +33,19 @@ global $db;
 
     
 
-// $mysqli->query("DELETE FROM users WHERE id=$id") or die($mysqli->error());
 
 
 }
 
 
-/*
-else if(isset($_GET['edit']))
-{
-
-$id = $_GET['edit'];
-
-global $db;
-
-$sql = "SELECT * FROM users WHERE id=$id" or die($mysqli->error());
-$resultsedit= $db->query($sql);
-
-
-if(count($resultsedit)==1)
-{
-  $row = $resultsedit->fetch_array();
-  $fname = $row['fname'];
-   $lname = $row['lname'];
-}
-*/
 
 
 ?>
 
 <?php
 include_once('../dao/config.php');
-$id = $_GET['edit'];
 
+$id = $_GET['edit'];
 
 $qry = mysqli_query($db,"select * from users where id='$id'"); // select query
 
@@ -97,9 +76,6 @@ if(isset($_POST['save']))
 
 
 ?>
-
-<h3>Edit Data</h3>
-
 
 
 <div style="position: fixed;left:500px;top:200px;">

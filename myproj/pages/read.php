@@ -5,7 +5,8 @@ session_start();
 
 include("styles.php");
 require_once('../dao/config.php');
-require_once('../dao/crudDAO.php'); 
+require_once('../dao/crudDAO.php');
+
 
 
 $read = new crudDAO();
@@ -180,6 +181,8 @@ foreach($list as $key => $value)
 </table>
 
   </div>
+
+  
 		
 
 
